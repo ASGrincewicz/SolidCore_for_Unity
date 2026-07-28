@@ -33,7 +33,7 @@ git submodule add git@github.com:ASGrincewicz/SolidCore_for_Unity.git Packages/c
 
 ```
 dotnet build SolidCore/SolidCore.csproj -c Release
-cp SolidCore/bin/Release/net8.0/SolidCore.dll <this-repo>/Runtime/Plugins/SolidCore.dll
+cp SolidCore/bin/Release/netstandard2.1/SolidCore.dll <this-repo>/Runtime/Plugins/SolidCore.dll
 ```
 
-> **Note:** the DLL currently targets `net8.0`. Unity loads managed plugins at `.NET Standard 2.1` compatibility, so the engine may need to be multi-targeted (`net8.0;netstandard2.1`) for in-editor/runtime loading. See the engine repo for status.
+The engine multi-targets `net8.0;netstandard2.1`. **Use the `netstandard2.1` build here** — that's the compatibility level Unity loads managed plugins at. (The `net8.0` build is for the standalone tools/tests/benchmarks in the engine repo.)
