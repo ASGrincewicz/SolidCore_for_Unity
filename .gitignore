@@ -1,0 +1,17 @@
+# Unity / IDE cruft (this repo is a UPM package, not a full Unity project)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Ll]ogs/
+.vs/
+.idea/
+.vscode/
+*.csproj
+*.sln
+*.user
+.DS_Store
+
+# Never ignore the bundled core assembly or its meta
+!Runtime/Plugins/SolidCore.dll
+!Runtime/Plugins/SolidCore.dll.meta

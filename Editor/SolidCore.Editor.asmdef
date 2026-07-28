@@ -1,0 +1,18 @@
+{
+    "name": "SolidCore.Editor",
+    "rootNamespace": "SolidCore",
+    "references": [
+        "SolidCore.Runtime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
