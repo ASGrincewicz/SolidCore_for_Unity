@@ -1,8 +1,8 @@
 {
-    "name": "SolidCore.Editor",
+    "name": "SolidCore.Unity.Editor",
     "rootNamespace": "SolidCore",
     "references": [
-        "SolidCore.Runtime"
+        "SolidCore.Unity.Runtime"
     ],
     "includePlatforms": [
         "Editor"

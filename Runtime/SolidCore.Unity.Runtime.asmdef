@@ -1,5 +1,5 @@
 {
-    "name": "SolidCore.Runtime",
+    "name": "SolidCore.Unity.Runtime",
     "rootNamespace": "SolidCore",
     "references": [],
     "includePlatforms": [],
